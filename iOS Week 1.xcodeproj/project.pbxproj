@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74E649057A284BCEC672C694 /* libPods-iOS Week 1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB74AE8B1CAAF324876482E6 /* libPods-iOS Week 1.a */; };
 		B0B846031C543D8C00100CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B846021C543D8C00100CF6 /* AppDelegate.swift */; };
-		B0B846051C543D8C00100CF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B846041C543D8C00100CF6 /* ViewController.swift */; };
 		B0B846081C543D8C00100CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B846061C543D8C00100CF6 /* Main.storyboard */; };
 		B0B8460A1C543D8C00100CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B846091C543D8C00100CF6 /* Assets.xcassets */; };
 		B0B8460D1C543D8C00100CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B8460B1C543D8C00100CF6 /* LaunchScreen.storyboard */; };
+		B0B846151C543E1A00100CF6 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B846141C543E1A00100CF6 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2255AD3F112590FD75E75EA1 /* Pods-iOS Week 1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Week 1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Week 1/Pods-iOS Week 1.debug.xcconfig"; sourceTree = "<group>"; };
+		48FD405837C62A86C8586809 /* Pods-iOS Week 1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Week 1.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Week 1/Pods-iOS Week 1.release.xcconfig"; sourceTree = "<group>"; };
 		B0B845FF1C543D8C00100CF6 /* iOS Week 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Week 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B846021C543D8C00100CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0B846041C543D8C00100CF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0B846071C543D8C00100CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B846091C543D8C00100CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B8460C1C543D8C00100CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B8460E1C543D8C00100CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B846141C543E1A00100CF6 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		BB74AE8B1CAAF324876482E6 /* libPods-iOS Week 1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Week 1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E649057A284BCEC672C694 /* libPods-iOS Week 1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3D51CFC29FE18273CDFD2AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB74AE8B1CAAF324876482E6 /* libPods-iOS Week 1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0B845F61C543D8C00100CF6 = {
 			isa = PBXGroup;
 			children = (
 				B0B846011C543D8C00100CF6 /* iOS Week 1 */,
 				B0B846001C543D8C00100CF6 /* Products */,
+				DD51F3198DCF1716B3E22522 /* Pods */,
+				A3D51CFC29FE18273CDFD2AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,22 @@
 			isa = PBXGroup;
 			children = (
 				B0B846021C543D8C00100CF6 /* AppDelegate.swift */,
-				B0B846041C543D8C00100CF6 /* ViewController.swift */,
 				B0B846061C543D8C00100CF6 /* Main.storyboard */,
 				B0B846091C543D8C00100CF6 /* Assets.xcassets */,
 				B0B8460B1C543D8C00100CF6 /* LaunchScreen.storyboard */,
 				B0B8460E1C543D8C00100CF6 /* Info.plist */,
+				B0B846141C543E1A00100CF6 /* MoviesViewController.swift */,
 			);
 			path = "iOS Week 1";
+			sourceTree = "<group>";
+		};
+		DD51F3198DCF1716B3E22522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2255AD3F112590FD75E75EA1 /* Pods-iOS Week 1.debug.xcconfig */,
+				48FD405837C62A86C8586809 /* Pods-iOS Week 1.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0B846111C543D8C00100CF6 /* Build configuration list for PBXNativeTarget "iOS Week 1" */;
 			buildPhases = (
+				A813EC672F57D038BEDAC2BF /* Check Pods Manifest.lock */,
 				B0B845FB1C543D8C00100CF6 /* Sources */,
 				B0B845FC1C543D8C00100CF6 /* Frameworks */,
 				B0B845FD1C543D8C00100CF6 /* Resources */,
+				44B33DBB6A0F253BBE9AC020 /* Embed Pods Frameworks */,
+				09EA7AAC482D42C991B4D63C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +158,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09EA7AAC482D42C991B4D63C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Week 1/Pods-iOS Week 1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44B33DBB6A0F253BBE9AC020 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS Week 1/Pods-iOS Week 1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A813EC672F57D038BEDAC2BF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0B845FB1C543D8C00100CF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B846051C543D8C00100CF6 /* ViewController.swift in Sources */,
 				B0B846031C543D8C00100CF6 /* AppDelegate.swift in Sources */,
+				B0B846151C543E1A00100CF6 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +321,7 @@
 		};
 		B0B846121C543D8C00100CF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2255AD3F112590FD75E75EA1 /* Pods-iOS Week 1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Week 1/Info.plist";
@@ -257,6 +333,7 @@
 		};
 		B0B846131C543D8C00100CF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FD405837C62A86C8586809 /* Pods-iOS Week 1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOS Week 1/Info.plist";
@@ -285,6 +362,7 @@
 				B0B846131C543D8C00100CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
